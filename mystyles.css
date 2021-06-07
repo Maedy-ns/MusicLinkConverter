@@ -1,0 +1,50 @@
+div.converted {
+    font-family: "Meiryo";
+    font-size: 14px;
+    padding: 10px 20px;
+    margin: 10px 0px;
+    border: solid 2px #1DB954;
+    border-radius: 16px;
+    transition: opacity 1s ease-out 0s;
+    overflow: hidden;
+}
+div.converted a{
+    color: #1b95e0;
+}
+a.convertedOpenOption{
+    text-decoration: underline;
+    transition: color 0.3s;
+}
+a.convertedOpenOption:hover{
+    color: #87ceeb;
+}
+img.spotifyLogo{
+    width: 22px;
+    height: 22px;
+    vertical-align: text-bottom;
+    margin-right: 8px;
+}
+a.convertedSpotifyA{
+    font-family: "Meiryo";
+    font-size: 14px;
+    transition: color 0.3s;
+}
+a.convertedSpotifyA:hover{
+    color: #1DB954;
+}
+a.convertedAppleMusicA{
+    font-family: "Meiryo";
+    font-size: 14px;
+    transition: color 0.3s;
+}
+a.convertedAppleMusicA:hover{
+    color: #fc5c74;
+}
+a.convertedAmazonMusicA{
+    font-family: "Meiryo";
+    font-size: 14px;
+    transition: color 0.3s;
+}
+a.convertedAmazonMusicA:hover{
+    color: #4404fc;
+}
